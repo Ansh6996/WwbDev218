@@ -1,0 +1,623 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collection{
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#intro{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(239, 154, 36);
+}
+
+
+
+#intro2{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(239, 154, 36);
+    font-family:'Times New Roman', Times, serif
+}
+
+#home{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#login{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+#membership{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+#cart{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#support{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#contact{
+    border: solid 2px;
+    text-decoration:dotted;
+    border-width: 5px;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+}
+
+#promo{
+    text-align: center;
+}
+
+.cover {
+    margin-top: 10px;
+    background-image: url(/assets/amaze-cover-bold.png);
+    background-size: cover;
+    height: 700px;
+    padding: 80px 80px;
+}
+
+.cover p{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+.cover h3{
+    width: 150px;
+    padding: 15px 30px;
+    font-size: 40px;
+    font-weight: 500px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#order-btn{
+    display: inline-block;
+    padding: 15px;
+    align-items:end ;
+    border: 5px solid;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 163);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#order-btn:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+
+#mem-btn{
+    display: inline-block;
+    padding: 15px;
+    align-items:end ;
+    border: 5px solid;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgb(252, 249, 249);
+    font-size: 25px;
+}
+
+#mem-btn:hover{
+    background-color: rgb(73, 232, 158);
+    text-decoration: underline;
+}
+
+#show-more{
+    display: inline-block;
+    padding: 5px;
+    align-items:end ;
+    border: 1px solid;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 240);
+    cursor: pointer;
+}
+
+
+#levis-button{
+    border: solid black;
+    border-radius: 2px;
+    background-color: white;
+    width: 250px;
+    padding: 5px;
+}
+
+#Lacoste-button{
+    border: solid black;
+    border-radius: 2px;
+    background-color: white;
+    width: 250px;
+    padding: 5px;    
+}
+
+#HandM-button{
+    border: solid black;
+    border-radius: 2px;
+    background-color: white;
+    width: 250px;
+    padding: 5px;
+}
+
+#Manyavar-button{
+    border: solid black;
+    border-radius: 2px;
+    background-color: white;
+    width: 250px;
+    padding: 5px;
+}
+
+
+.size-char-class{
+    margin-left: 630px;
+}
+
+#size-chart{
+    text-align: center;
+    border-radius: 12px;
+    border: solid black;
+    padding: 5px;
+    width: 10%;
+    margin-left: 750px;
+    background-color: white;
+}
+
+.feat-collec{
+    margin-left: 15px;
+    background-color: rgb(24, 150, 113);
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    width: auto;
+    border: solid rgb(11, 10, 10);
+    
+}
+
+#feat-coll{
+    font-weight: bold;
+    border: rgb(26, 12, 12);
+    margin: 5px 10px 10px;
+    padding: 10px;
+}
+
+.sale{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(239, 176, 67);
+}
+
+#discount{
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Brands{
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: rgb(242, 153, 76);
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    width: auto;
+    border: 12px;
+}
+
+#exp_fav_brands{
+    padding-top: 120px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.Customer-care{
+    text-align: center;
+    background-color: rgb(231, 240, 62);
+    margin: 5px;
+    border: solid rgb(11, 10, 10);
+}
+
+#payment ul,p{
+    text-align: center;
+    background-color: rgb(244, 171, 47);
+    margin: 5px;
+    margin-inline: 12px;
+    display: inline-block;
+}
+
+#backontop{
+    margin: 5px;
+    text-align: center;
+    background-color: beige;
+    border: solid 2px;
+    padding: 5px;
+}
+
+.Quick ol{
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(32, 116, 32);
+}
+
+#quick-h3{
+    text-align: center;
+    background-color: rgb(32, 116, 32);
+}
+
+.Cus-policies{
+    text-align: center;
+    background-color: rgb(255, 239, 19);
+    margin: 5px;
+    border: solid rgb(11, 10, 10);
+}
+
+.membership1{
+    background-color: rgb(240, 240, 159);
+    border-radius: 12px;
+    box-shadow:4px rgb(83, 85, 72);
+    text-align: center;
+    align-items: center;
+    margin: 15px 25px;
+    padding: 15px;
+    border: solid black;
+}
+
+.membership1 h3{
+    padding: 5px;
+    display: inline-block;
+    background-color: red;
+    border: solid black;
+    border-radius: 5px;
+}
+
+.login-form{
+    background-color: rgb(241, 199, 48);
+    border-radius: 12px;
+    box-shadow:4px rgb(83, 85, 72);
+    text-align: center;
+    align-items: center;
+    margin: 15px 25px;
+    padding: 15px;
+    border: solid black;
+}
+
+#form1{
+    padding: 150px;
+    font-weight: bold;
+    margin: 15px 25px;
+}
+
+#form3{
+    padding: 150px;
+    font-weight: bold;
+    margin: 15px 25px;
+}
+
+#login-buttom{
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#sup1{
+    text-align: center;
+}
+
+.track-order{
+    background-color: rgb(241, 199, 48);
+    text-align: center;
+    border: solid black 2px;
+    width: 40%;
+    margin-left: 500px;
+}
+
+#orderID{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#track-button{
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+#Cancellation-process{
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    border: solid black 2px;
+    width: 40%;
+    margin-left: 500px;
+    background-color: rgb(34, 122, 73);
+    color: white;
+}
+
+#Report-my-order{
+    background-color: rgb(241, 199, 48);
+    margin-left: 500px;
+    border: solid black 2px;
+    width: 40%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.refund-order{
+    margin-left: 500px;
+    padding: 15px;
+    background-color:  rgb(241, 199, 48);
+    border: solid black 2px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#CO1{
+    border-radius: 10px;
+
+}
+
+#cart-here{
+    text-align: center;
+    margin-left: 50px;
+}
+
+#update{
+    text-align: center;
+    margin-left: 50px;
+}
+
+#cart-details{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.track-order1{
+    margin-top: 30px;
+    margin-left: 580px;
+    text-align: center;
+    border: solid black;
+    border-radius: 5px;
+    width: 500px;
+    background-color: rgb(239, 192, 51);
+}
+
+#to-para{
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(99, 233, 233);
+    width: 500px;
+    margin-left: 580px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.Track-order{
+    background-color: rgb(245, 245, 184);
+
+}
+
+#search-items{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 233, 194);
+}
+
+#search{
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#search-2{
+    padding: 5px;
+    background-color: rgb(242, 167, 28);
+}
+
+
+
+.products-header{
+    text-align: center;
+    background-color: rgb(227, 201, 69);
+    padding: 10px;
+    width: 500px;
+    margin-left: 560px;
+    border: solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#t-shirt-fc{
+    color: rgb(145, 33, 33);
+}
+
+#Denim-fc{
+    color: rgb(34, 111, 170);
+}
+
+#Hoodies-fc{
+    color: black;
+}
+
+#Kurta-fc{
+    color:rgb(11, 55, 26);
+}
+
+.Mixed-collection-Tshirts{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+
+}
+
+
+
+
+#Levis-collection{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+
+}
+
+#Levis{
+    text-align: center;
+    padding: 5px;
+    margin-left: 70px;
+    height: 310px;
+}
+
+.Levis-Tshirts{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.Levis-Tshirts:hover {
+  transform: translateY(-5px);
+}
+
+#levis-tshirts-heading{
+    text-align: center;
+    display: inline-block;
+    margin-left: 810px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#Levis-banner{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.HandM-Tshirts{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.HandM-Tshirts:hover {
+  transform: translateY(-5px);
+}
+
+.Lacoste-Tshirts{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.Lacoste-Tshirts:hover {
+  transform: translateY(-5px);
+}
+
+.Levis-jeans{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque; 
+}
+.Levis-jeans:hover{
+      transform: translateY(-5px);
+}
+
+.Mixed-collection-jeans{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.Mixed-collection-hoodies{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.Levis-hoodie{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque; 
+}
+.Levis-hoodie:hover{
+      transform: translateY(-5px);
+}
+
+.HandM-hoodie{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque; 
+}
+
+.HandM-hoodie:hover{
+      transform: translateY(-5px);
+}
+
+
+.Kurta-collection{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+.Manya-kurta{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque;   
+}
+
+.Manya-kurta:hover {
+      transform: translateY(-5px);
+}
+
