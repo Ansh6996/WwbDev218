@@ -38,5 +38,7 @@ function Oops(){
 }
 
 function foodname(){
-    document.getElementById("btn").textContent = 
-}
+    const name = document.getElementById("myinput").value;
+    document.getElementById("para").textContent = name;
+
+}   
