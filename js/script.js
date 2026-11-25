@@ -1,22 +1,23 @@
-
+/*
 document.getElementById("checkout").addEventListener("click",function()
 {
     alert("Finalizing your order");
 });
+*/
 
 function searchProduct()
 {
     let search = document.getElementById("search").value.toLowerCase();
-    let products = document.querySelectorAll(".Mixed-collection-Tshirts");
+    let products = document.querySelectorAll("#search-items > div > div, #search-items > section > div");
     products.forEach(function(product)
     {
-        let name=food.querySelector("h4").textContent.toLowerCase();
+        let name=product.querySelector("h4").textContent.toLowerCase();
         if(name.includes(search)){
-            food.style.display="block";
+            product.style.display="block";
         }
         else
         {
-            food.style.display="none";
+            product.style.display="none";
         }
     });
 }

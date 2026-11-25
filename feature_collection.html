@@ -31,234 +31,235 @@
 
 
 <section id="search-items">
-        <h2>Search here</h2>
-        <input type = "text" id="search" placeholder="Search your product">
-        <button onclick="searchProduct()" id="search-2">Search</button>
+    <h2>Search here</h2>
+    <input type = "text" id="search" placeholder="Search your product">
+    <button onclick="searchProduct()" id="search-2">Search</button>
     
         <div class="products-header"> 
             <h3 id="t-shirt-fc">Tshirts</h3>
             <br>
         </div>
 
-    <div class="Mixed-collection-Tshirts" >
-        <div class="Levis-Tshirts">
+    <div class="Mixed-collection-Tshirts">
+        <div class="Levis-Tshirts" data-keywords = "Brown Tshirt Levis Tshirt" >
             <img src="assets/Levis Tshirts/169601542.webp" width="250" height="350" alt="levistshirt">
             <br>
             <h4>Classic Brown Tshirt</h4>
             <h4>Rs 600</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Classic Brown Tshirt')">Add to cart</button>
         </div>
 
 
 
-        <div class="HandM-Tshirts">
+        <div class="HandM-Tshirts"  data-keywords ="Black Tshirt H&M">
             <img src="assets/H & M Tshirts/Classic black tshirt.webp" width="250" height="350" alt="levistshirt">
             <br>
             <h4>Black Classic Tshirt</h4>
             <h4>Rs 800</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Classic Black Tshirt')">Add to cart</button>
         </div>
 
 
 
-        <div class="Lacoste-Tshirts">
+        <div class="Lacoste-Tshirts" keywords = "Navy Blue Tshirt Slimfit">
             <img src="assets/Lacoste Tshirts/Lacoste Navy Blue tshirt.webp" width="350" height="350" alt="levistshirt">
             <br>
             <h4>Slim Fit Navy Blue Tshirt</h4>
             <h4>Rs 800</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Navy Blue Tshirt slim fit')">Add to cart</button>
         </div>
 
 
 
-        <div class="Lacoste-Tshirts">
+        <div class="Lacoste-Tshirts" data-keywords="Full sleeve Lacoste Tshirt ">
             <img src="assets/Lacoste Tshirts/Light Blue Full sleeve Tshirt .webp" width="350" height="350" alt="levistshirt">
             <br>
             <h4>Full sleeve Lacoste Tshirt</h4>
             <h4>Rs 800</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Full sleeve Black Tshirt')">Add to cart</button>
         </div>
 
 
-        <div class="Levis-Tshirts">
+        <div class="Levis-Tshirts" data-keywords="Red Tshirt">
             <img src="assets/Levis Tshirts/A79730494_01_Styleshot.webp" width="250" height="350" alt="levistshirt">
             <br>
             <h4>Red Texted Levis Classic Tee</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Red Classic Tshirt Levis')">Add to cart</button>
         </div>
 
 
-        <div class="HandM-Tshirts">
+        <div class="HandM-Tshirts"  data-keywords="Yellow Tshirt">
             <img src="assets/H & M Tshirts/Yellow Oversized Tshirt .webp" width="250" height="350" alt="tshirt">
             <br>
             <h4>Yellow Oversized Tshirt</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Oversized Yellow Tshirt')">Add to cart</button>
         </div>
 
         
     </div>
     <br>
-</section>
 
-<div class="products-header"> 
-    <h3 id="Denim-fc">Denim Pants</h3>
-    <br>
-</div>
 
-<section class="Mixed-collection-jeans">
-        <div class="Levis-jeans" id="Black-Slim-denim-jeans">
+    <div class="products-header"> 
+        <h3 id="Denim-fc">Denim Pants</h3>
+        <br>
+    </div>
+
+    <section class="Mixed-collection-jeans">
+        <div class="Levis-jeans" data-keywords="Black jeans">
             <img src="assets/Levis Denim jeans/black slim denim.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Black Slim denim jeans</h4>
             <h4>Rs 850</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Black Slim denim jeans')">Add to cart</button>
         </div>
 
-        <div class="Levis-jeans" id="Blue-Denim-slimfit">
+        <div class="Levis-jeans" data-keywords="Blue Jeans">
             <img src="assets/Levis Denim jeans/blue slim denim.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Classic Blue Denim slim fit</h4>
             <h4>Rs 850</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Blue Denim slim fit')">Add to cart</button>
         </div>
 
-            <div class="Levis-jeans" id="Blue-baggy-jeans">
+            <div class="Levis-jeans" data-keywords="Baggy Jeans">
             <img src="assets/Levis Denim jeans/Blue Baggy denim .webp" width="350" height="350" alt="jeans">
             <br>
             <h4>Baggy Denim Jeans</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Denim Jeans Baggy Fit')">Add to cart</button>
         </div>
 
-            <div class="Levis-jeans" id="Dark-Blue-Denim-Jeans">
+            <div class="Levis-jeans" data-keywords="Dark blue Denim Jeans">
             <img src="assets/Levis Denim jeans/dark blue denim.webp" width="350" height="350" alt="jeans">
             <br>
             <h4>Dark Blue Denim Jeans</h4>
             <h4>Rs 900</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Dark Blue Denim Jeans')">Add to cart</button>
         </div>
 
-            <div class="Levis-jeans" id="Light-Blue-Denim-Jeans">
+            <div class="Levis-jeans" data-keywords="Light Blue Jeans">
             <img src="assets/Levis Denim jeans/light blue denim.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Light Blue Denim Jeans</h4>
             <h4>Rs 850</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Light Blue Denim Jeans')">Add to cart</button>
         </div>
 
 
-        <div class="HandM-Tshirts" id="Dark-Grey-Jeans">
+        <div class="HandM-Tshirts" data-keywords="Grey Jeans">
             <img src="assets/Levis Denim jeans/Dark Grey Jeans.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Dark Grey Classic Denim Jeans</h4>
             <h4>Rs 850</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Dark Grey Classic Denim Jeans')">Add to cart</button>
         </div>
         
     </section>
     <br>
 
-<div class="products-header"> 
-    <h3 id="Hoodies-fc">Hoodies</h3>
-    <br>
-</div>
-<section class="Mixed-collection-hoodies">
-        <div class="Levis-hoodie" id="Black-solid-hoodie">
+    <div class="products-header"> 
+        <h3 id="Hoodies-fc">Hoodies</h3>
+        <br>
+        </div>
+
+    <section class="Mixed-collection-hoodies">
+        <div class="Levis-hoodie" data-keywords="Black Hoodie">
             <img src="assets/Lacoste Hoodies/Black Solid hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Black Solid Hoodie</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Black Solid Hoodie')">Add to cart</button>
         </div>
 
-        <div class="HandM-hoodie" id="Green-hoodie-H&M">
+        <div class="HandM-hoodie" data-keywords="Green Hoodie">
             <img src="assets/H & M hoodies/Green Hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Classic Green Hoodie</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Green Hoodie H&M')">Add to cart</button>
         </div>
 
-            <div class="Levis-hoodie" id="Levis-grey-hoodie">
+            <div class="Levis-hoodie" data-keywords="Grey Hoodie Levis">
             <img src="assets/Levi's Hoodies/Grey Hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Classic Grey Hoodie</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Grey Hoodie Levis')">Add to cart</button>
         </div>
 
-            <div class="Levis-hoodie" id="Solid Blue Hoodie">
+            <div class="Levis-hoodie" data-keywords="Blue Hoodie">
             <img src="assets/Levi's Hoodies/Blue solid hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Solid Blue Hoodie</h4>
             <h4>Rs 1200</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Blue Solid Hoodie Levis')">Add to cart</button>
         </div>
 
-            <div class="HandM-hoodie" id="Beige-loose-fit-hoodie-H&M">
+            <div class="HandM-hoodie" data-keywords="Beige Hoodie">
             <img src="assets/H & M hoodies/Loose fit beige hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Relaxed Fit Beige Hoodie</h4>
             <h4>Rs 1450</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Beige Hoodie Relaxed fit')">Add to cart</button>
         </div>
 
 
-        <div class="HandM-hoodie" id="Maroon-Hoodie-H&M">
+        <div class="HandM-hoodie" data-keywords="Maroon Hoodie">
             <img src="assets/H & M hoodies/Maroon Hoodie.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Maroon Hoodie</h4>
             <h4>Rs 1000</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Maroon Hoodie')">Add to cart</button>
         </div>
         
     </section>
 
     <br>
 
-<div class="products-header"> 
-    <h3 id="Kurta-fc">Kurtas</h3>
-</div>
-<br>
-<section class="Kurta-collection">
+    <div class="products-header"> 
+        <h3 id="Kurta-fc">Kurtas</h3>
+    </div>
+    <br>
+    <section class="Kurta-collection" data-keywords="White kurta">
         <div class="Manya-kurta" id="Classic-White-Kurta">
             <img src="assets/Manyavar kurta/Cream White Classic kurta.webp" width="250" height="350" alt="jeans">
             <br>
@@ -266,61 +267,62 @@
             <h4>Rs 1199</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('White Kurta')">Add to cart</button>
         </div>
 
-        <div class="Manya-kurta" id="Olive-Green-Kurta">
+        <div class="Manya-kurta" data-keywords="Green Kurta">
             <img src="assets/Manyavar kurta/Olive Green classic kurta.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Olive Green Kurta</h4>
             <h4>Rs 1299</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Olive Green Kurta')">Add to cart</button>
         </div>
 
-            <div class="Manya-kurta" id="Wine-kurta">
+            <div class="Manya-kurta" data-keywords="Wine Kurta">
             <img src="assets/Manyavar kurta/Wine Classic Kurta.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Premium Wine Kurta</h4>
             <h4>Rs 1699</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Wine Kurta')">Add to cart</button>
         </div>
 
-            <div class="Manya-kurta" id="Pinky-stylish-kurta">
+            <div class="Manya-kurta" data-keywords="Pink Kurta">
             <img src="assets/Manyavar kurta/Pinky stylish kurta.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Pink Stylish Kurta</h4>
             <h4>Rs 1650</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Pink Kurta')">Add to cart</button>
         </div>
 
-            <div class="Manya-kurta" id="yellow-embroidered">
+            <div class="Manya-kurta" data-keywords="Yellow Kurta">
             <img src="assets/Manyavar kurta/Yellow Classic Kurta.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Embroided Yellow Kurta</h4>
             <h4>Rs 1699</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Yellow Kurta Embroided')">Add to cart</button>
         </div>
 
 
-        <div class="HandM-hoodie" id="Yellow-classic-kurta">
+        <div class="HandM-hoodie" data-keywords="Yellow Kurta">
             <img src="assets/Manyavar kurta/Yellow Embroidered Kurta.webp" width="250" height="350" alt="jeans">
             <br>
             <h4>Classic Yellow Kurta</h4>
             <h4>Rs 1119</h4>
             <a href="View Product">View Product</a>
             <br>
-            <button>Add to cart</button>
+            <button onclick="searchProduct('Yellow Kurta')">Add to cart</button>
         </div>
         
     </section>
+</section>
 
 <br>
     <div class="Quick">
