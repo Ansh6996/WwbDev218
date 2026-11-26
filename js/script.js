@@ -22,3 +22,6 @@ function searchProduct()
     });
 }
 
+function selectedItem(){
+    alert("Your item is added to cart");
+}

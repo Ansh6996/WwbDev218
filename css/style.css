@@ -509,6 +509,7 @@
     padding-top: 20px;
     gap: 20px;
     overflow-x: auto;
+    background-color: rgb(249, 249, 184);
 
 }
 
@@ -578,6 +579,7 @@
     padding-top: 20px;
     gap: 20px;
     overflow-x: auto;
+    background-color: rgb(221, 66, 66);
 }
 
 .Mixed-collection-hoodies{
@@ -586,6 +588,7 @@
     padding-top: 20px;
     gap: 20px;
     overflow-x: auto;
+    background-color: rgb(39, 39, 99);
 }
 
 .Levis-hoodie{
@@ -625,3 +628,73 @@
       transform: translateY(-5px);
 }
 
+#Levis img{
+    box-shadow:0 0 15px rgb(240, 66, 18);
+}
+
+#Lacoste-collection{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+    overflow-x: auto;
+    background-color: rgb(52, 152, 129);
+}
+
+#Lacoste img{
+    box-shadow:0 0 15px rgb(44, 110, 44);
+}
+
+#Lacoste{
+    text-align: center;
+    padding: 5px;
+    margin-left: 70px;
+    height: 310px;
+}
+
+#lacoste-tshirts-heading{
+    text-align: center;
+    display: inline-block;
+    margin-left: 810px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Lacoste-Hoodies{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: bisque; 
+}
+
+#HandM img{
+    text-align: center;
+    padding: 5px;
+    margin-left: 600px;
+    height: 310px;
+    box-shadow:0 0 15px rgb(138, 41, 41);
+}
+
+#HandM-collection{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+    overflow-x: auto;
+    background-color: rgb(230, 108, 48);
+}
+
+#HandM-tshirts-heading{
+    text-align: center;
+    display: inline-block;
+    margin-left: 810px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;   
+}
+
+.HandM-Hoodies{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: rgb(165, 241, 117); 
+}

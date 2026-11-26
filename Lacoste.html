@@ -3,9 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amaze</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <header id="header">
+    <img src="assets/amaze-logo.svg" alt="banger" width = "150" height= "100">
+    <div id="intro">
+        <h1>Welcome to Amaze!!!!</h1>
+    </div>
+    <div id="intro2">
+        <p>Get your the best collection from your favourite brands</p>
+    </div>
+    </header>
 </head>
 <body>
+    <section class="collection">
+        <a href="home.html" id="home">Home</a>
+        <a href="login.html" id="login">Login</a>
+        <a href="Membership.html" id="membership">Membership</a>
+        <a href="contact.html" target="_self" id="contact">Contact</a>
+        <a href="24by7.html" target="_self" id="support">24/7 support</a>
+        <a href="cart.html" target="_self" id="cart">Cart</a>
+        <br>
+    </section>
+    <hr>
     
+    <div id="Lacoste">
+        <img src="assets/lacoste-baner.webp">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="lacoste-tshirts-heading">
+        <h3>T shirts</h3>
+    </div>
+    <br>
+    <br>
+    <section id="Lacoste-collection">
+        <div class="Lacoste-Tshirts" data-keywords="Blue Tshirt">
+            <img src="assets/Lacoste Tshirts/Lacoste Blue Slim fit .webp" width="250" height="350" alt="levistshirt">
+            <br>
+            <h3>Solid classic brown tshirt</h3>
+            <h4>Rs 600</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+        <div class="Lacoste-Tshirts" data-keywords="Navy Blue-tshirt">
+            <img src="assets/Lacoste Tshirts/Lacoste Navy Blue tshirt.webp" width="350" height="350" alt="levistshirt">
+            <br>
+            <h3>Navy Blue Tshirt</h3>
+            <h4>Rs 800</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+            <div class="Lacoste-Tshirts" data-keywords="White-tshirt">
+            <img src="assets/Lacoste Tshirts/Lacoste White tshirt.webp" width="350" height="350" alt="levistshirt">
+            <br>
+            <h3>White Tshirt</h3>
+            <h4>Rs 800</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+            <div class="Lacoste-Tshirts" data-keywords="Light Blue tshirt Full sleeve">
+            <img src="assets/Lacoste Tshirts/Light Blue Full sleeve Tshirt .webp" width="350" height="350" alt="levistshirt">
+            <br>
+            <h4>Light Blue Full sleeve Tshirt</h4>
+            <h4>Rs 800</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+            <div class="Lacoste-Tshirts" data-keywords="Light Blue Tshirt">
+            <img src="assets/Lacoste Tshirts/Light Blue tshirt.webp" width="350" height="350" alt="levistshirt">
+            <br>
+            <h4>Light Blue Tshirt</h4>
+            <h4>Rs 1000</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+        <div class="Lacoste-Tshirts" data-keywords="pollo tshirt">
+            <img src="assets/Lacoste Tshirts/pollo tshirt .webp" width="250" height="350" alt="levistshirt">
+            <br>
+            <h4>Pollo Tshirt</h4>
+            <h4>Rs 1000</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+    </section>
+<br>
+    <div id="lacoste-tshirts-heading">
+        <h3>Hoodies</h3>
+    </div>
+    <br>
+    <br>
+<section class="Mixed-collection-hoodies">
+        <div class="Lacoste-Hoodies" data-keywords="Black Hoodie">
+            <img src="assets/Lacoste Hoodies/Black Solid hoodie.webp" width="350" height="350" alt="jeans">
+            <br>
+            <h4>Black Solid Hoodie</h4>
+            <h4>Rs 1000</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+        <div class="Lacoste-Hoodies" data-keywords="Dark Green Hoodie">
+            <img src="assets/Lacoste Hoodies/Dark Green solid hoodie.webp" width="300" height="350" alt="jeans">
+            <br>
+            <h4>Dark Green solid Hoodie</h4>
+            <h4>Rs 1000</h4>
+            <a href="View Product">View Product</a>
+            <br>
+            <button onclick="selectedItem()">Add to cart</button>
+        </div>
+
+            <div class="Lacoste-Hoodies" data-keywords="Green Hoodie">
+                <img src="assets/Lacoste Hoodies/Green solid hoodie.webp" width="250" height="350" alt="jeans">
+                <br>
+                <h4>Green Solid Hoodie</h4>
+                <h4>Rs 1000</h4>
+                <a href="View Product">View Product</a>
+                <br>
+                <button onclick="selectedItem()">Add to cart</button>
+            </div>
+
+            <div class="Lacoste-Hoodies" id="Pink Hoodie">
+                <img src="assets/Lacoste Hoodies/Hot pink solid hoodie.webp" width="350" height="350" alt="jeans">
+                <br>
+                <h4>Hot Pink Solid Hoodie</h4>
+                <h4>Rs 1200</h4>
+                <a href="View Product">View Product</a>
+                <br>
+                <button onclick="selectedItem()">Add to cart</button>
+            </div>
+
+            <div class="Lacoste-Hoodies" data-keywords="Light Blue Hoodie">
+                <img src="assets/Lacoste Hoodies/Light Blue Relaxed hoodie.webp" width="350" height="350" alt="jeans">
+                <br>
+                <h4>Light Blue Hoodie</h4>
+                <h4>Rs 1000</h4>
+                <a href="View Product">View Product</a>
+                <br>
+                <button onclick="selectedItem()">Add to cart</button>
+            </div>
+
+
+            <div class="Lacoste-Hoodies" data-keywords="Red Hoodie">
+                <img src="assets/Lacoste Hoodies/Red solid Hoodie.webp" width="350" height="350" alt="jeans">
+                <br>
+                <h4>Red Zipper Hoodie</h4>
+                <h4>Rs 1000</h4>
+                <a href="View Product">View Product</a>
+                <br>
+                <button onclick="selectedItem()">Add to cart</button>
+            </div>
+        
+    </section>
+
+
+<br>
+<br>
+    <div class="Quick">
+    <h3 id="quick-h3">Quick links</h3>
+    <ol>
+        <a href="Terms and conditions.html">Terms and conditions</a>
+        <br>
+        <a href="contact.html">Contact</a>
+        <br>
+        <a href="24by7 support.html">24/7 support</a>
+    </ol>
+    </div>
+<br>
 </body>
 </html>
